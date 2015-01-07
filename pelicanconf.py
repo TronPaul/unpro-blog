@@ -28,7 +28,7 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('Github Profile', 'https://github.com/TronPaul'),
-          ('Twitter', 'http://twitter.com/tronpaul'),
+          ('Twitter', 'https://twitter.com/tronpaul'),
           ('Steam Profile', 'https://steamcommunity.com/id/TronPaul'),
           ('Twitch.tv', 'http://twitch.tv/tronpaul'),)
 
