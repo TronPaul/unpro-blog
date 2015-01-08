@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 THEME = 'tuxlite_tbs'
-AUTHOR = u'Tron Paul'
+AUTHOR = u'Mark "Tron Paul" McGuire'
 SITENAME = u'unPRO'
 SITEURL = ''
 
