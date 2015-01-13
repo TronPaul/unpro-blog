@@ -9,7 +9,7 @@ import SocketServer
 # Setup for NAT busting/EC2
 env.forward_agent = True
 env.disable_known_hosts = True
-env.gateway = 'teamunpro.com'
+env.gateway = 'blog.teamunpro.com'
 ssh_root = os.path.expanduser("~") + "/.ssh"
 keys = ["teamunpro.pem", "id_rsa"]
 env.key_filename = [ssh_root + "/" + k for k in keys]
@@ -61,7 +61,7 @@ def publish():
     local('pelican -s publishconf.py')
     project.rsync_project(
         remote_dir=dest_path,
-        ssh_opts="-A ec2-user@teamunpro.com ssh",
+        ssh_opts="-A ec2-user@blog.teamunpro.com ssh",
         exclude=".DS_Store",
         local_dir=DEPLOY_PATH.rstrip('/') + '/',
         delete=True,
