@@ -1,7 +1,7 @@
 Adventures in AWS: Part 1
 #########################
 
-:date: 2014-1-6 20:39
+:date: 2015-1-6 20:39
 :category: Projects
 :tags: aws, operations
 :slug: adventures-in-aws-1
