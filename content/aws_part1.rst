@@ -116,7 +116,7 @@ Maybe having more previous operations experience might have made this
 easier, but I'd expect this to be easier having messed around with linux
 servers and Vagrant.
 
-What's next
+What's Next
 ===========
 
 * Pointing DNS records at AWS
